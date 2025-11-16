@@ -35,22 +35,14 @@ export default defineNuxtConfig({
   },
 
   content: {
-    // Table of contents settings
-  markdown: {
-      toc: {
-        depth: 5,
-        searchDepth: 5
+    highlight: {
+      theme: {
+        default: 'github-light',
+        dark: 'github-dark'
       },
-
-      highlight: {
-        theme: {
-          default: 'github-light',
-          dark: 'github-dark'
-        },
-        preload: ['javascript', 'typescript', 'vue', 'css', 'html', 'bash', 'json', 'yaml', 'markdown']
-      }
-    },
-  },
+      preload: ['javascript', 'typescript', 'vue', 'css', 'html', 'bash', 'json', 'yaml', 'markdown']
+    }
+  } as any,
 
   routeRules: {
     // Disable prerendering for studio routes
