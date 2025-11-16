@@ -10,9 +10,26 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxt/content": "^3.8.2",
+    "better-sqlite3": "^12.4.1",
     "nuxt": "^4.2.1",
     "nuxt-studio": "^1.0.0-alpha.1",
+    "rehype-katex": "^7.0.1",
+    "remark-breaks": "^4.0.0",
+    "remark-directive": "^4.0.0",
+    "remark-emoji": "^5.0.2",
+    "remark-frontmatter": "^5.0.0",
+    "remark-gemoji": "^8.0.0",
+    "remark-gfm": "^4.0.1",
+    "remark-github": "^12.0.0",
+    "remark-lint": "^10.0.1",
+    "remark-math": "^6.0.0",
+    "remark-rehype": "^11.1.2",
+    "remark-toc": "^9.0.0",
     "vue": "^3.5.24",
     "vue-router": "^4.6.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1"
   }
 }
